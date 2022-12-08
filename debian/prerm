@@ -14,4 +14,8 @@ if [ -d /boot/efi/EFI/refind/icons ] ; then
     rm -rf /boot/efi/EFI/refind/icons
 fi
 
+if [ -d /boot/efi/EFI/refind ] ; then
+    rm -rf /boot/efi/EFI/refind
+fi
+
 #DEBHELPER#
