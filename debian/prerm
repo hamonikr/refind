@@ -6,8 +6,4 @@ if [ -d /etc/refind.d ] ; then
     rm -rf /etc/refind.d
 fi
 
-if [ -d /boot/efi/EFI/refind ] ; then
-    rm -rf /boot/efi/EFI/refind
-fi
-
 #DEBHELPER#

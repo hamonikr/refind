@@ -11,3 +11,4 @@ refind-install usr/share/refind
 refind-mkdefault usr/sbin
 refind.conf-sample usr/share/refind/refind
 refind/refind*.efi usr/share/refind/refind
+themes boot/efi/EFI/refind

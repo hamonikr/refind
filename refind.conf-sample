@@ -723,3 +723,6 @@ menuentry "macOS via BootNext" {
     firmware_bootnum 80
     disabled
 }
+
+# theme
+include themes/hamonikr/theme.conf
