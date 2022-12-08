@@ -1,3 +1,9 @@
+refind (0.13.3.1-3hamonikr) stable; urgency=medium
+
+  * Update background and font
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 08 Dec 2022 21:29:54 +0900
+
 refind (0.13.3.1-2hamonikr) focal; urgency=medium
 
   * Add new theme

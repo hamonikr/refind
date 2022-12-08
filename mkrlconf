@@ -57,6 +57,8 @@ if [[ ! -f $RLConfFile || $1 == "--force" ]] ; then
     echo "\"Boot with standard options\"  \"$DefaultOptions\"" > $RLConfFile
     echo "\"Boot to single-user mode\"    \"$DefaultOptions single\"" >> $RLConfFile
     echo "\"Boot with minimal options\"   \"ro root=$RootFS\"" >> $RLConfFile
+    # show when TAB click
+    # ROOTFS UUID = $(blkid -o export -s UUID "$(df / | grep dev | cut -f 1 -d " ")" | grep UUID= | cut -d '=' -f 2- )
 else
     echo "Existing $RLConfFile found! Not overwriting!"
     echo "To force overwriting, pass the --force option."
